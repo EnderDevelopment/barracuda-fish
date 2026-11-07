@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Barracuda fish</title>
+  <desc id="desc">A streamlined silver barracuda swimming through deep blue water.</desc>
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#082f49"/><stop offset="0.55" stop-color="#075985"/><stop offset="1" stop-color="#0c4a6e"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2e8f0"/><stop offset="0.45" stop-color="#94a3b8"/><stop offset="1" stop-color="#475569"/></linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cbd5e1"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="700" fill="url(#water)"/>
+  <g fill="none" stroke="#7dd3fc" stroke-linecap="round" opacity=".18">
+    <path d="M70 150C250 110 350 180 500 145s280-25 480 15" stroke-width="5"/>
+    <path d="M180 540c160-35 270 30 420 0s290-22 460 4" stroke-width="4"/>
+    <path d="M60 260c110-22 190-20 290 8" stroke-width="3"/>
+  </g>
+  <g fill="#bae6fd" opacity=".25"><circle cx="175" cy="105" r="5"/><circle cx="1030" cy="180" r="4"/><circle cx="920" cy="520" r="7"/><circle cx="270" cy="590" r="4"/></g>
+  <ellipse cx="625" cy="410" rx="405" ry="115" fill="#020617" opacity=".28" filter="url(#softGlow)"/>
+  <g stroke="#1e293b" stroke-linejoin="round">
+    <path d="M270 347L93 254l61 116-61 115 177-86z" fill="#64748b" stroke-width="8"/>
+    <path d="M271 348L157 286l34 83-34 80 114-55z" fill="#94a3b8" stroke-width="3"/>
+    <path d="M250 360C345 236 560 214 786 282c91 27 180 49 265 45-74 49-171 91-274 112-224 44-416 13-527-79z" fill="url(#body)" stroke-width="9"/>
+    <path d="M251 361c126 60 310 81 518 38 101-21 185-50 282-72-65 49-172 91-274 112-224 44-416 13-526-78z" fill="url(#belly)" stroke-width="3"/>
+    <path d="M480 252l40-96 40 111z" fill="#64748b" stroke-width="8"/>
+    <path d="M638 267l89-78-14 116z" fill="#64748b" stroke-width="8"/>
+    <path d="M526 488l-42 100 92-112z" fill="#64748b" stroke-width="8"/>
+    <path d="M700 461l43 78 12-100z" fill="#64748b" stroke-width="8"/>
+    <path d="M290 363C401 302 596 282 784 318" fill="none" stroke="#f8fafc" stroke-width="10" opacity=".55"/>
+    <path d="M341 330l-24 61M389 309l-22 70M440 291l-18 79M493 278l-14 84M549 271l-10 87M607 270l-5 87M665 278l2 80" fill="none" stroke="#475569" stroke-width="4" opacity=".55"/>
+    <path d="M814 298l116 27-107 20z" fill="#334155" stroke-width="5"/>
+    <path d="M930 325l122 1-104 35z" fill="#0f172a" stroke-width="5"/>
+    <path d="M935 334l116-8" stroke="#f8fafc" stroke-width="4" opacity=".8"/>
+    <circle cx="846" cy="300" r="20" fill="#f8fafc" stroke-width="6"/>
+    <circle cx="851" cy="300" r="9" fill="#020617" stroke="none"/>
+    <path d="M826 348c61 24 132 20 190 0" fill="none" stroke="#020617" stroke-width="7"/>
+    <path d="M852 352l18 22M881 357l15 20M912 356l11 17M944 350l9 13" stroke="#f8fafc" stroke-width="5"/>
+  </g>
+  <g fill="none" stroke="#bae6fd" stroke-linecap="round" opacity=".3"><path d="M170 430c-58-8-91 5-128 32" stroke-width="5"/><path d="M1020 510c45 7 79 1 112-20" stroke-width="4"/></g>
+</svg>
